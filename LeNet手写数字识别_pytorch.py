@@ -11,8 +11,6 @@ from torchmetrics import Accuracy  ##输出训练Acc，方案二需要的包
 # import os  # 导入os库，用于操作系统相关的功能
 # os.environ['KMP_DUPLICATE_LIB_OK']='True'   # 设置一个环境变量，防止出现重复的库的错误
 
-# torch.__version__
-# print(torch.__version__)
 
 BATCH_SIZE=512 # 大概需要2G的显存
 EPOCHS=2 # 总共训练批次(所有数据丢进去训练，为了实验方便，设置为2次) 
